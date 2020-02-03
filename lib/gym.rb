@@ -16,12 +16,16 @@ class Gym
     Membership.all.select {|membership| membership.gym == self}
   end
 
+  # def have_membership
+  #   members = []
+  #   self.memberships.each do |memberships|
+  #     members << memberships.lifter
+  #   end
+  #   members
+  # end
+
   def have_membership
-    members = []
-    self.memberships.each do |memberships|
-      members << memberships.lifter
-    end
-    members
+    self.memberships.map { |memberships| memberships.lifter}
   end
 
   def gym_lift_total

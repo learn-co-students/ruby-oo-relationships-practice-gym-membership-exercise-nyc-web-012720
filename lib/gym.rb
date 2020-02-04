@@ -25,7 +25,7 @@ class Gym
   
   end
 
-  # Get a list of the names of all lifters that have a membership to that gym
+  # Get a list of the names of all lifters that have a membership to that gym (this should be instance method since plurality matters to that specific gym not gyms)
   def lifters_name
    self.lifters.map{|members| members.name}
   end
@@ -33,7 +33,11 @@ class Gym
 
   # Get the combined lift total of every lifter has a membership to that gym
   def total_lift
-    self.lifters.reduce(0){|total,lifts| total+ lifts.lift_total}
+    self.lifters.reduce(0){|total,lifter| total + lifts.lifter_total}
+
+    #map method
+    # self.lifters.map{|lifter| lifter.lift_total}.sum
+
   end
 
 

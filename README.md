@@ -32,7 +32,7 @@ Here's what we need to be able to do.
 
   - Get the total cost of a specific lifter's gym memberships
 
-  - Given a gym and a membership cost, sign a specific lifter up for a new gym
+  - Given a gym and a membership cost, sign a specific lifter up for a new gym =>'Lifter#sign_up'
 
 **Membership**
 

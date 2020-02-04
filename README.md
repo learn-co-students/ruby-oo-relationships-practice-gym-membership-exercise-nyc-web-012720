@@ -36,7 +36,7 @@ Here's what we need to be able to do.
 
 **Membership**
 
-  - Get a list of all memberships
+  - Get a list of all memberships 
 
 **Gym**
 

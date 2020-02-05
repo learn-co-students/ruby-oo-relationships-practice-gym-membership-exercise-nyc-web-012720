@@ -1,0 +1,17 @@
+Lifter
+[xx] Get a list of all lifters
+[xx] Get a list of all the memberships that a specific lifter has
+[xx] Get a list of all the gyms that a specific lifter has memberships to
+[xx] Get the average lift total of all lifters
+[xx] Get the total cost of a specific lifter's gym memberships
+[xx] Given a gym and a membership cost, sign a specific lifter up for a new gym
+
+Membership
+[xx] Get a list of all memberships
+
+Gym
+[xx] Get a list of all gyms
+[xx] Get a list of all memberships at a specific gym
+[xx] Get a list of all the lifters that have a membership to a specific gym
+[xx] Get a list of the names of all lifters that have a membership to that gym
+[xx] Get the combined lift total of every lifter has a membership to that gym

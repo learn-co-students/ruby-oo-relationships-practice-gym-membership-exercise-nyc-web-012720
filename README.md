@@ -22,7 +22,7 @@ Here's what we need to be able to do.
 
 **Lifter**
 
-  - Get a list of all lifters
+  [X]Get a list of all lifters [X]
 
   - Get a list of all the memberships that a specific lifter has
 
@@ -36,7 +36,7 @@ Here's what we need to be able to do.
 
 **Membership**
 
-  - Get a list of all memberships
+  [X]Get a list of all memberships
 
 **Gym**
 
